@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TenXamarinD1"
+             x:Class="TenXamarinD1.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Entry x:Name="userNameEntry" Placeholder="Ener your name" />
+        <Label x:Name="helloLabel" Text="Welcome to 10 days Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button Text="Say Hello" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
